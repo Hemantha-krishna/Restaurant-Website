@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Royal Biryani Restaurant</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/utils.css">
+
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <a href=""><img src="./images/logo2.png" alt="image" href="#home"></a>
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li><a href="store.html">Menu</a></li>
+            <li><a href="#" class="item" id="login">Log in</a></li>
+            <li><a href="#" class="item" id="signup">Sign Up</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        
+        <h1 class="h-primary">Welcome to Our Restaurant</h1>
+        <p>We welcome you to a delicious feast of exquisite dishes in our restaurant. With a wide range of menu to choose from, we guarantee you a sumptuous feast experience in our restaurant.</p>
+        <a href="store.html"><button class="btn">Order Now</button></a></a>
+    </section>
+    
+    <section id="popular">
+        <h1 class="h-primary center">Our Popular Dishes</h1>
+        
+        <div class="box popular">
+            <div class="box-item">
+                <img src="images/sbiriyani.jpg" width="350px" height="220px" alt="image">
+                <div class="center">
+                    <br><h2>Hyderabadi Special Biriyani</h2>
+            
+                </div>
+            </div>
+            
+            <div class="box-item">
+                <img src="images/vegm.jpg" width="350px" height="220px" alt="image">
+                <div class="center">
+                    <br><h2>Veg Manchuria</h2>
+                </div>
+            </div>
+
+            <div class="box-item">
+                <img src="images/butterc.jpg" width="350px" height="220px" alt="image">
+                <div class="center">
+                    <br><h2>Butter Chicken</h2>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Our Catering is one of the city's top full-service catering companies. Known for our consistency, timeliness and fresh menus, we flawlessly execute events of every shape and size. Whether you are looking for an energizing, productivity-boosting lunch break or a rewarding celebration party, we are dedicated to creating something truly incredible.We Will Do Whatever Our Customer Demands to Improve Our Services.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Bulk Orders</h2>
+                <p class="center">Now Order your favorite Tasty Food from our extensive menu by the kilo. Same Taste, Same Quality at Discounted Rates. Birthday Party? Calling guests over? Celebrating your Anniversary? Special Occasion? Be at ease. Simply place the order and Relax. It will reach you on time, conveniently packed. It is just like having a personal chef without all the extra fuss, cost and mess.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary center">Free Delivery</h2>
+                <p class="center">Ordering food for delivery is always a joy. It takes under a minute and you don’t have to leave your house. Whatever your reason may be for getting dinner delivered, we are here for it. We provide Free and Zero Contact Delivery. No minimum order requirement. We deliver food on time at all costs. You can order food at any time 24/7 without worrying about any extra charge. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message/Suggestions: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="popup">
+        <div class="popup-content">
+
+            <img src="./images/close.png" alt="close" class="close">
+            <img src="./images/user.png" class="userimage" alt="User">
+            <h1>Login Here</h1>
+            <input type="text" class="input" placeholder="Username">
+            <input type="text" class="input" placeholder="Password">
+            <a href="#" class="btn">Log in</a>
+        </div>
+    </div>
+    <div class="popup2">
+        <div class="popup-content2">
+
+            <img src="./images/close.png" alt="close" class="close2">
+            <img src="./images/user.png" class="userimage" alt="User">
+            <h1>Sign Up Here</h1>
+            <input type="text" class="input" placeholder="Frist Name">
+            <input type="text" class="input" placeholder="Last Name">
+            <input type="text" class="input" placeholder="Email or Phone No.">
+            <input type="text" class="input" placeholder="Password">
+            <input type="text" class="input" placeholder="Address">
+            <a href="#" class="btn">Sign Up</a>
+        </div>
+    </div>
+    <div class="popup3">
+        <div class="popup-content3">
+            
+            <img src="./images/close.png" alt="close" class="close3">
+            <h1>Thanks for your order</h1>
+            <p>Payment summary</p>
+            <p>Total Bill: </p>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="nav-container">
+
+            <h3 class="text-center">Copyright &copy; All rights reserved!</h3>
+
+            <ul class="nav footer-nav">
+
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="Images/twitter.png">
+                </a>
+
+
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="Images/insta.png">
+                </a>
+
+
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="Images/Facebook Logo.png">
+                </a>
+
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
