@@ -1,55 +1,50 @@
 /* Utility Classes */
-.h-primary{
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.8rem;
-    padding: 20px;
+.h-primary {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.8rem;
+  padding: 20px;
 }
 
-.h-secondary{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.3rem;
-    padding: 12px;
+.h-secondary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.3rem;
+  padding: 12px;
 }
 
-.btn{
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: #694b3b;
-    color: white;
-    margin: 17px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor:pointer;
-    text-decoration: none;
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: #694b3b;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
 }
-.btn2
-{
-    margin: 15px 10px 20px 48px;
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: brown;
-    color: white;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor:pointer;
-    text-decoration: none;
-
+.btn2 {
+  margin: 15px 10px 20px 48px;
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
 }
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
-.my-2
-{
-    margin:26px 0px;
+.my-2 {
+  margin: 26px 0px;
 }
 
-.my-1
-{
-    margin: 5px 0px;
-    font-weight: bold;
+.my-1 {
+  margin: 5px 0px;
+  font-weight: bold;
 }
-.text-center
-{
-    text-align: center;
-    font-size: x-large;
+.text-center {
+  text-align: center;
+  font-size: x-large;
 }
